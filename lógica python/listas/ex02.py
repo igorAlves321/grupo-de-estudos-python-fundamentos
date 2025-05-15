@@ -1,5 +1,5 @@
 frutas = ["maçã", "banana", "laranja"]
-print(f"Lista original: {frutas}")
+print(f"Lista: {frutas}")
 
 # Alterando o segundo elemento
 frutas[1] = "morango"
