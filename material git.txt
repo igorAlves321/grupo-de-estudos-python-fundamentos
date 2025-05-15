@@ -39,4 +39,3 @@ baixar as branches para o repo local.
 git fetch
 mostrar logs de commit, sem aquele monte de informação
 git log --oneline
----
