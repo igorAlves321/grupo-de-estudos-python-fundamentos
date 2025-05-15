@@ -24,7 +24,7 @@ criar branche e mudar para ela.
 git checkout -b back-end
 
 mudar para uma branch.
-git checkout backend
+git checkout bruna
 
 Listar todas as branches locais:
 git branch
@@ -39,3 +39,4 @@ baixar as branches para o repo local.
 git fetch
 mostrar logs de commit, sem aquele monte de informação
 git log --oneline
+-
