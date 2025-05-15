@@ -1,1 +1,41 @@
-vão todos pro inferno
+comandos git:
+git init Inicializa um novo repositório Git em um diretório. Esse comando cria uma pasta .git
+oculta, onde o Git armazenará todas as informações sobre versões e alterações dos arquivos.
+
+git add . Adiciona todos os arquivos do diretório atual ao staging area (área de preparo), tornando esses arquivos prontos para o commit.
+git add nome_do_arquivo, adciona somente o arquivo que você especificou.
+
+
+git commit -m "mensagem" Salva as alterações no histórico do Git com uma mensagem descritiva. Normalmente tem que ser descritiva, para outros desenvolvedores saberem o que está em construção.
+
+git status Mostra o estado atual do repositório, exibindo quais arquivos foram modificados, adicionados ao staging ou ainda precisam ser commitados.
+
+git push envia alterações para o repositório remoto
+
+git pull origin nome_da_branch Baixa as alterações mais recentes do repositório remoto e mescla 
+git pull também funciona.
+
+git clone URL-do-repo Copia um repositório remoto para o seu computador, criando um diretório 
+
+agora, vamos para alguns comandos que são importantes, mas, vocês não vão usar a todo momento, Porém é bom para organização.
+comandos git para branches
+
+criar branche e mudar para ela.
+git checkout -b back-end
+
+mudar para uma branch.
+git checkout backend
+
+Listar todas as branches locais:
+git branch
+
+Listar todas as branches remotas:
+git branch -r
+
+Listar todas as branches (locais e remotas):
+git branch -a
+
+baixar as branches para o repo local.
+git fetch
+mostrar logs de commit, sem aquele monte de informação
+git log --oneline
