@@ -2,7 +2,7 @@ comandos git:
 git init Inicializa um novo repositório Git em um diretório. Esse comando cria uma pasta .git
 oculta, onde o Git armazenará todas as informações sobre versões e alterações dos arquivos.
 
-git add . Adiciona todos os arquivos do diretório atual ao staging area (área de preparo), tornando esses arquivos prontos para o commit.
+git add . Adiciona todos os arquivos do diretório atual ao staging area (área de preparo), tornando esses arquivos prontos para o comit.
 git add nome_do_arquivo, adciona somente o arquivo que você especificou.
 
 
